@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>agency template</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- lightbox -->
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Start setting box   -->
+    <section class="setting-box">
+      <h3>Setting Website</h3>
+      <div class="icon">
+        <i class="fa-solid fa-gear"></i>
+      </div>
+      <div class="dark-Mode">
+        <h4>Dark Mode</h4>
+        <ul class="buttons">
+          <button id="on" data-dark="on">On</button>
+          <button id="off"data-dark="off">Off</button>
+        </ul>
+      </div>
+      <div class="colors">
+        <h4>Color</h4>
+        <ul class="list-colors">
+          <li class="active" data-color="rgb(114, 209, 114)"></li>
+          <li data-color="#E91E63"></li>
+          <li data-color="#009688"></li>
+        </ul>
+      </div>
+      <div class="fontSize">
+        <h4>Font Size</h4>
+        <ul class="list-font">
+          <li data-size="25px">Larg</li>
+          <li class="active" data-size="20px">Medium</li>
+          <li data-size="15px">Small</li>
+        </ul>
+      </div>
+      <div class="setting-bullets">
+        <h4>Testing Option</h4>
+        <div class="buttons">
+            <button class="yes active" data-bullet="yes">Yes</button>
+            <button class="no" data-bullet="no">NO</button>
+        </div>
+      </div>
+    </section>
+    <!-- End setting box   -->
+    <!-- Start Nav Bullets -->
+    <section class="nav-bullets">
+        <div class="bullet"data-section=".landing">
+            <div class="bullet-name">Home</div>
+        </div>
+        <div class="bullet"data-section=".about">
+            <div class="bullet-name">About Us</div>
+        </div>
+        <div class="bullet"data-section=".services">
+            <div class="bullet-name">Services</div>
+        </div>
+        <div class="bullet" data-section=".portfolio">
+            <div class="bullet-name">Portfolio</div>
+        </div>
+        
+    </section>
+    <!-- End Nav Bullets -->
+    <!-- Header Section -->
+    <header class="header">
+      <div class="container">
+        <div class="logo">A<span>g</span>ancy</div>
+        <nav>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </nav>
+      </div>
+    </header>
+    <!-- Start Landing Section -->
+    <section class="landing" id="home">
+      <div class="overly"></div>
+      <div class="container">
+        <div class="landing-text">
+          <h1 class="landing-title">We Are <span>Creative</span> Agency</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Voluptatibus, earum atque natus doloremque molestiae
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End Landing Section -->
+    <!-- Start About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-text">
+          <h3>About Us</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            perferendis, quis ratione est exercitationem magnam minima eius et a
+            expedita quia quidem impedit! Nulla aspernatur dolore, dicta nemo
+            voluptas commodi.
+          </p>
+        </div>
+        <div class="about-img">
+          <img src="images/about/01.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+        <!-- Start Services Section -->
+    <section class="services" id="services">
+      <div class="header-section">
+      <h1>SERVICES</h1>
+      <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit,<br> eget tincidunt.
+      </p>
+      </div>
+      <div class="container">
+        <div class="service-box">
+          <i class="fa-solid fa-desktop"></i>
+          <div>
+            <h3>Vorem amet intuitive</h3>
+            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+          </div>
+        </div>
+         <div class="service-box">
+           <i class="fas fa-cog"></i>
+           <div>
+             <h3>Vorem amet intuitive</h3>
+             <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+          </div>
+        </div>
+         <div class="service-box">
+           <i class="fas fa-pencil-ruler"></i>
+           <div>
+            <h3>Vorem amet intuitive</h3>
+            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+          </div>
+        </div>
+         <div class="service-box">
+           <i class="fas fa-camera"></i>
+           <div>
+            <h3>Vorem amet intuitive</h3>
+            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Services Section -->
+    <!-- Start Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+     <div class="container">
+        <div class="header-section">
+         <h1>Featured Works</h1>
+        </div>
+        <div class="images-box gallery">
+            <a href="images/works/portfilio1.jpeg" data-lightbox="my-gallery" data-title="work 1">
+                <img src="images/works/portfilio1.jpeg" alt="">
+            </a>
+            <a href="images/works/portfilio2.jpeg" data-lightbox="my-gallery" data-title="work 2">
+                <img src="images/works/portfilio2.jpeg" alt="">
+            </a>
+            <a href="images/works/portfilio3.jpeg" data-lightbox="my-gallery" data-title="work 3">
+                <img src="images/works/portfilio3.jpeg" alt="">
+            </a>
+            <a href="images/works/portfilio4.webp" data-lightbox="my-gallery" data-title="work 4">
+                <img src="images/works/portfilio4.webp" alt="">
+            </a>
+            <a href="images/works/portfilio5.jpeg" data-lightbox="my-gallery" data-title="work 5">
+                <img src="images/works/portfilio5.jpeg" alt="">
+            </a>
+            <a href="images/works/portfilio6.jpeg" data-lightbox="my-gallery" data-title="work 6">
+                <img src="images/works/portfilio6.jpeg" alt="">
+            </a>
+         </div>
+    </section>
+     </div>
+    <!-- End Portfolio Section -->
+    <!-- Start Pricing Section -->
+    <section class="pricing">
+      <div class="header-section">
+      <h1>Pricing</h1>
+      <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit,<br> eget tincidunt.
+      </p>
+      </div>
+      <div class="container">
+          <div class="pricing-boxs">
+              <div class="box">
+                  <div class="box-head">
+                      <h3>Basic</h3>
+                      <h2>19</h2>
+                  </div>
+                  <ul class="body-box">
+                    <li>Feature No 1</li>
+                    <li>Extra Feature</li>
+                    <li>Extra Feature No 2</li>
+                    <li>Feature</li>
+                  </ul>
+                  <div class="box-footer">
+                    <button>Buy Now</button>
+                  </div>
+              </div>
+              <div class="box">
+                  <div class="box-head">
+                      <h3>PREMUYN</h3>
+                      <h2>29</h2>
+                  </div>
+                  <ul class="body-box">
+                    <li>Feature No 1</li>
+                    <li>Extra Feature</li>
+                    <li>Extra Feature No 2</li>
+                    <li>Feature</li>
+                  </ul>
+                  <div class="box-footer">
+                    <button>Buy Now</button>
+                  </div>
+              </div>
+              <div class="box">
+                  <div class="box-head">
+                    <span>50$</span>
+                      <h3>PRO</h3>
+                      <h2>39</h2>
+                  </div>
+                  <ul class="body-box">
+                    <li>Feature No 1</li>
+                    <li>Extra Feature</li>
+                    <li>Extra Feature No 2</li>
+                    <li>Feature</li>
+                  </ul>
+                  <div class="box-footer">
+                    <button>Buy Now</button>
+                  </div>
+              </div>
+              <div class="box">
+                  <div class="box-head">
+                      <h3>PLATINUM</h3>
+                      <h2>49</h2>
+                  </div>
+                  <ul class="body-box">
+                    <li>Feature No 1</li>
+                    <li>Extra Feature</li>
+                    <li>Extra Feature No 2</li>
+                    <li>Feature</li>
+                  </ul>
+                  <div class="box-footer">
+                    <button>Buy Now</button>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </section>
+    <!-- End Pricing Section -->
+    <!-- Start Contact Us Section -->
+    <section class="contact" id="contact">
+       <div class="header-section">
+      <h1>CONTACT US</h1>
+      <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit,<br> eget tincidunt.
+      </p>
+      </div>
+      <div class="container">
+        <form class="form">
+          <input type="text" class="main-input" placeholder="YOUR NAME" />
+          <input type="email" class="main-input" placeholder="YOUR MALL" />
+          <textarea
+            name="message"
+            class="main-input"
+            placeholder="YOUR MESSAGE"
+          ></textarea>
+          <button class="btn">SEND MESSAGE</button>
+        </form>
+        <div class="info">
+          <div class="phone">
+            <h4>GET IN TOUCH</h4>
+            <p>+00 123.456.789</p>
+            <p>+00 123.456.789</p>
+          </div>
+          <address>
+            <h4>WHERE WE ARE</h4>
+            <p>
+              Awesome Address 17<br />
+              New York,NYC<br />
+              123-4567-890<br />
+              USA
+            </p>
+          </address>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Us Section -->
+    <!-- Start Footer -->
+    <footer>
+       Copyright &copy; 2022 Abdelrhman El-adawy
+    </footer>
+    <!-- End Footer -->
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
